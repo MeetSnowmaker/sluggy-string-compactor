@@ -17,7 +17,7 @@ Please note: this is definitely not an original idea, just my take on a solution
 
 ## How to
 
-The default version returns with an array where index 0 is always either `null` or the desired outcome, and index 1 is `null` or the caught `error`. When defining you can destruct the array and get properly named variables for the predetermined indexes. I prefer using arrow functions for the argument. You can express more complex, like multi-line or multi-step operations inside the curly braces, just dont forget to use a return on the end. See examples for more use cases. I might add useful ones eventually.
+Toss in anything the default version returns with a string. If the input is string it will parse it, else it will return '' for now. Strict version will come eventually.
 
 ```node
 import { lenientTrimSlugRemove as ltsr } from '@meetsnowmaker/sluggy-string-compactor';

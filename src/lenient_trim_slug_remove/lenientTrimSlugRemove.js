@@ -24,12 +24,12 @@ const lenientTrimSlugRemove = (maybeString) => {
   if (typeof maybeString === 'string') {
     const trimmed = maybeString.trim();
 
-    const generatedNameStringSlug = slugify(trimmed, {
+    const sluggedRemoved = slugify(trimmed, {
       lower: true,
       remove: /[^\d\w]/g,
     });
 
-    return generatedNameStringSlug;
+    return sluggedRemoved;
   }
 
   return '';

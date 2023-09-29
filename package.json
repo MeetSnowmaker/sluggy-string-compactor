@@ -1,12 +1,17 @@
 {
   "name": "@meetsnowmaker/sluggy-string-compactor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extracting useful chars from a string into compact chunk",
   "keywords": [
     "string",
     "slug",
+    "sluggy",
     "slugify",
+    "trim",
+    "trimmy",
+    "trimmify",
     "compact",
+    "compacty",
     "compactor",
     "npm",
     "package"
